@@ -9,11 +9,17 @@
 // System.Console.WriteLine("Введите пятизначное число");
 // int num = Convert.ToInt32(Console.ReadLine());
 
+// while (num > 100000)
+// {
+//     System.Console.WriteLine("Введите пятизначное число");
+//     num = Convert.ToInt32(Console.ReadLine());
+// }
+
 // int a = num / 10000;
 // int a1 = num % 10;
 // int b = num / 1000 % 10;
 // int b1 = num / 10 % 10;
-
+ 
 // if (a == a1 && b == b1)   
 // {
 //     System.Console.WriteLine("Да");
