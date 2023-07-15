@@ -1,0 +1,5 @@
+D:\GeekBrains\Знакомство с языками программирования\Семинары\Homework\Homework2\obj\Debug\net6.0\Homework2.csproj.AssemblyReference.cache
+D:\GeekBrains\Знакомство с языками программирования\Семинары\Homework\Homework2\obj\Debug\net6.0\Homework2.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Знакомство с языками программирования\Семинары\Homework\Homework2\obj\Debug\net6.0\Homework2.AssemblyInfoInputs.cache
+D:\GeekBrains\Знакомство с языками программирования\Семинары\Homework\Homework2\obj\Debug\net6.0\Homework2.AssemblyInfo.cs
+D:\GeekBrains\Знакомство с языками программирования\Семинары\Homework\Homework2\obj\Debug\net6.0\Homework2.csproj.CoreCompileInputs.cache
