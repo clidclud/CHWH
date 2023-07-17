@@ -11,6 +11,11 @@
 // Console.WriteLine("Введите степень");
 // int b = Convert.ToInt32(Console.ReadLine());
 // int result = 1;
+// while (b<=0)
+// {
+//     Console.WriteLine("Введите степень");
+//     b = Convert.ToInt32(Console.ReadLine());
+// }
 // for (int i = 1; i <= b; i++)
 // {
 //     result = result * a;
@@ -27,6 +32,11 @@
 // double a = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Введите степень");
 // double b = Convert.ToInt32(Console.ReadLine());
+// while (b<=0)
+// {
+//     Console.WriteLine("Введите степень");
+//     b = Convert.ToInt32(Console.ReadLine());
+// }
 // Console.WriteLine(Math.Pow(a,b));
 // }
 
@@ -39,11 +49,13 @@
 // void Sum()
 // {
 // Console.WriteLine("Введите число");
-// int num = Convert.ToInt32(Console.ReadLine());
-// for (int i = 0; i < num; i++)
+// int i = Convert.ToInt32(Console.ReadLine());
+// int sum = 0;
+// while (i > 0)
 // {
-//     sum = sum + num % 10;
-//     num = num / 10;
+// int num = i % 10;
+// i = i / 10;
+// sum = sum + num;
 // }
 // System.Console.WriteLine(sum);
 // }
@@ -69,14 +81,12 @@
 
 
 
-
+//Идеальное решение
 
 
 // Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
-
-// Вариант 1
 
 // int a = Message ("Введите число");
 // int b = Message ("Введите степень");
@@ -104,23 +114,12 @@
 
 // bool Zero(int b)
 // {
-// if (b < 0)
+// if (b <= 0)
 // {
 //     System.Console.WriteLine("Показатель не должен быть меньше нуля");
 //     return false;
 // }
 // return true;
-// }
-
-// Вариант 2
-// Result();
-// void Result()
-// {
-// Console.WriteLine("Введите число");
-// double a = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите степень");
-// double b = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine(Math.Pow(a,b));
 // }
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
@@ -138,10 +137,12 @@
 // int Sum(int num)
 // {
 // int sum = 0;
-// for (int i = 0; i <= num; i++)
+// int num1 = 0;
+// while (num > 0)
 // {
-//     sum = sum + num % 10;
-//     num = num / 10;
+// num1 = num % 10;
+// num = num / 10;
+// sum = sum + num1;
 // }
 // return sum;
 // }
