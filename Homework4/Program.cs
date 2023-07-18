@@ -154,34 +154,33 @@
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
-// int Message(string message)
-// {
-// Console.WriteLine(message);
-// int result = Convert.ToInt32(Console.ReadLine());
-// return result;
-// }
+int Message(string message)
+{
+Console.WriteLine(message);
+int result = Convert.ToInt32(Console.ReadLine());
+return result;
+}
 
-// int [] Array(int Length)
-// {
-//     int [] array = new int [Length];
-//     for (int i = 0; i < Length-1; i++)
-// {
-//     array[i] = Convert.ToInt32(Console.ReadLine());
-// }
-// return array;
-// }
+int [] Array(int Length)
+{
+    int [] array = new int [Length];
+    for (int i = 0; i < Length; i++)
+{
+    array[i] = Convert.ToInt32(Console.ReadLine());
+}
+return array;
+}
 
-// void ArrayPrint(int[]array)
-// {
-// System.Console.Write("[ ");
-// for (int i = 0; i < array.Length; i++)
-// {
-//     System.Console.Write(array[i] + " ");
-// }
-// System.Console.Write("]");
-// }
+void ArrayPrint(int[]array)
+{
+System.Console.Write("[ ");
+for (int i = 0; i < array.Length; i++)
+{
+    System.Console.Write(array[i] + " ");
+}
+System.Console.Write("]");
+}
 
-// int length = Message ("Длинна массива");
-// int aRRay = Message ("Введите числа массива");
-// int [] array = Array (length);
-// ArrayPrint(array);
+int length = Message ("Длинна массива");
+int [] array = Array (length);
+ArrayPrint(array);
